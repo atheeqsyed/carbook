@@ -12,7 +12,7 @@ use App\Http\Controllers\CarListController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+//Index 
 Route::get('/', [CarListController::class, 'index']);
 
 Route::post('/saveItemRoute', [CarListController::class, 'saveItem'])->name('saveItem');
